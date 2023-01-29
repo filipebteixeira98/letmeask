@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import { Button } from '../components/Button'
 
 import '../styles/auth.scss'
@@ -25,7 +27,7 @@ export function NewRoom() {
             <Button type="submit">Create room</Button>
           </form>
           <p>
-            Do you want to enter a existing room? <a href="#">Click here</a>
+            Do you want to enter a existing room? <Link to="/">Click here</Link>
           </p>
         </div>
       </main>

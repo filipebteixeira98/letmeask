@@ -1,3 +1,5 @@
+import { Button } from '../components/Button'
+
 import '../styles/auth.scss'
 
 import illustrationImg from '../assets/images/illustration.svg'
@@ -25,7 +27,7 @@ export function Home() {
           <div className="separator">or enter a room</div>
           <form>
             <input type="text" placeholder="Enter room code" />
-            <button type="submit">Enter in the room</button>
+            <Button type="submit">Enter in the room</Button>
           </form>
         </div>
       </main>
